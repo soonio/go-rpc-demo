@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package main;
+option go_package = "../step4";
+
+
+message HelloRequest {
+  string Content = 1;
+}
+
+message HelloResponse {
+  string Content = 1;
+}
+
+service HelloService {
+  rpc Hello (HelloRequest) returns (HelloResponse);
+}
+
+
+

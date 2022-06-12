@@ -1,0 +1,5 @@
+.idea
+
+plugin/protoc-gen-go-netrpc
+
+step4/hello.pb.go
